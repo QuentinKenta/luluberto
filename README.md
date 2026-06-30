@@ -26,6 +26,24 @@ node scripts/dev-server.mjs
 
 Puis ouvrir `http://localhost:8080`.
 
+## Mise en ligne GitHub Pages
+
+Le jeu est deployable directement depuis la branche `main`, dossier racine.
+
+Dans GitHub :
+
+1. Ouvrir le depot `QuentinKenta/luluberto`.
+2. Aller dans `Settings` > `Pages`.
+3. Dans `Build and deployment`, choisir `Deploy from a branch`.
+4. Selectionner `main` et le dossier `/ (root)`.
+5. Cliquer sur `Save`.
+
+Apres quelques minutes, le jeu sera disponible a l'adresse :
+
+```text
+https://quentinkenta.github.io/luluberto/
+```
+
 ## Controles
 
 - Alberto : fleches directionnelles + `P` pour interagir.
